@@ -2,6 +2,12 @@ module Fun
   def self.interpret(command)
     responses = []
     
+    if command.match(/^hi\!$/i)
+      responses << {
+        :say => "Hi, how can I help you?"
+        {
+      end
+    
     if command.match(/^what\'?s?(\s+is)?\s+the\s+meaning\s+of\s+life\??$/i)
       responses << {
         :say => "42."
